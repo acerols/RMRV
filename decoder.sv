@@ -5,7 +5,7 @@
 // 
 // Create Date: 2019/02/10 14:56:00
 // Design Name: 
-// Module Name: aludec
+// Module Name: decoder
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -21,7 +21,7 @@
 `include "InstrDef.sv"
 
 
-module aludec(
+module decoder(
     input logic [31:0]instr,
     output logic src1reg_en, src2reg_en, 
     output logic jal, alures2reg, memory2reg, memwrite,

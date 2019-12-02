@@ -27,7 +27,11 @@ module riscv(
     );
     logic [2:0]alucontrol;
     logic funcout;
-    
+    logic src1reg_en, src2reg_en, jal, alures2reg, memory2reg, memwrite;
+
+
+    decoder dc(instr, );
+
     controller c(clk, reset, instr, funcout, alucontrol);
     datapath dp(clk, reset, instr, funcout, alucontrol, pc, aluout);
     

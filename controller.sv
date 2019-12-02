@@ -23,15 +23,16 @@
 module controller(
     input logic clk, reset,
     input logic [31:0]instr,
+    input logic zero,
     output logic regwrite,
-    output logic funcout,
+    output logic [3:0]funcout,
     output logic [2:0]alucontrol
     );
     
-    
-    
-    aludec aludec(instr[31:25], regwrite, alucontrol);
-    maindec maindec(instr[6:0], funcout);
-    
+    maindec md(instr[6:0], regwrite, funcout);
+    aludec ad(.func3(instr[11:7]), .func7(instr[31:25]), 
+        .instr_type(funcout),
+        .alucontrol1(alucontrol1), .alucontrol2(alucontrol2));
+
     
 endmodule

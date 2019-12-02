@@ -24,7 +24,7 @@
 module maindec(
     input logic [6:0]op,
     output logic writereg,
-    output logic [3:0]funcout
+    output logic [3:0]funcout,
     );
     
     assign writereg = funcout[3];
@@ -42,16 +42,6 @@ module maindec(
             7'b0110011: funcout <= `R_TYPE;   //R_TYPE
             default: funcout <=4'bxxxx;
         endcase
-        
-    /*
-        case(aludecout)
-            1'b0:case(funct7)
-                7'b0000000: alucontrol <= 3'b000;   //add
-                7'b0100000: alucontrol <= 3'b001;   //sub
-                default:
-                    alucontrol <= 3'bxxx;
-                endcase
-            1'b1: alucontrol <= 3'b000;
-        endcase
-    */
+
+    
 endmodule
