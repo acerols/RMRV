@@ -1,0 +1,24 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/bkmn/RMRV_SVer/new/datapath.sv,1580215281,systemVerilog,,/home/bkmn/RMRV_SVer/new/immgen.sv,,datapath,,,,,,,,
+/home/bkmn/RMRV_SVer/new/dmem.sv,1580214862,systemVerilog,,/home/bkmn/RMRV_SVer/new/imem.sv,,dmem,,,,,,,,
+/home/bkmn/RMRV_SVer/new/imem.sv,1580214835,systemVerilog,,/home/bkmn/RMRV_SVer/new/immgen.sv,,imem,,,,,,,,
+/home/bkmn/RMRV_SVer/new/pcbranch.sv,1580215336,systemVerilog,,/home/bkmn/RMRV_SVer/new/regfile.sv,,pcbranch,,,,,,,,
+/home/bkmn/RMRV_SVer/new/riscvtest.sv,1580215395,systemVerilog,,,,testbench,,,,,,,,
+/home/bkmn/RMRV_SVer/new/riscvtop.sv,1580215401,systemVerilog,,/home/bkmn/RMRV_SVer/new/riscvtest.sv,,riscvtop,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/RMRV_SVer.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/RMRV_SVer.sim/sim_1/new/instruction_test.sv,1580319664,systemVerilog,,,,instruction_test,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/RMRV_SVer.srcs/sim_1/new/Forward_sim.sv,1580238898,systemVerilog,,,,Forward_sim,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/RMRV_SVer.srcs/sim_1/new/PC_sim.sv,1580244391,systemVerilog,,,,PC_sim,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/Mux2.sv,1580245720,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/alu.sv,,Mux2,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/alu.sv,1580215118,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/alucontrol.sv,,alu,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/alucontrol.sv,1580214968,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/branchcomp.sv,,alucontrolunit,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/branchcomp.sv,1580289730,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/control.sv,,branchcomp,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/control.sv,1580215175,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/controller.sv,,controlunit,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/controller.sv,1580289348,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/forward.sv,,controller,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/forward.sv,1580239635,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/immgen.sv,,forward,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/immgen.sv,1580215302,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/regfile.sv,,immgen,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/regfile.sv,1580300733,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/new/riscv.sv,,regfile,,,,,,,,
+/home/bkmn/dev/RMRV_SV_pipeline/new/riscv.sv,1580321193,systemVerilog,,/home/bkmn/dev/RMRV_SV_pipeline/RMRV_SVer.sim/sim_1/new/instruction_test.sv,,riscv,,,,,,,,

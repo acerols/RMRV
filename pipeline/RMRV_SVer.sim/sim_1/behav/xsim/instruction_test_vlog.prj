@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../new/Mux2.sv" \
+"../../../../new/alu.sv" \
+"../../../../new/alucontrol.sv" \
+"../../../../new/branchcomp.sv" \
+"../../../../new/control.sv" \
+"../../../../new/controller.sv" \
+"../../../../new/forward.sv" \
+"../../../../new/immgen.sv" \
+"../../../../new/regfile.sv" \
+"../../../../new/riscv.sv" \
+"../../new/instruction_test.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
